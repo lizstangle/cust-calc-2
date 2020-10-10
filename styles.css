@@ -1,0 +1,71 @@
+body {
+    display: flex;
+}
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  text-decoration-line: underline;
+}
+
+h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+  font-style: italic;
+  color: darkblue;
+}
+
+h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: light;
+  font-size: 30px;
+  color: darkblue;
+}
+
+
+
+#data-input {
+    border: solid 1px;
+    border-color: darkblue;
+    margin-top: 2em;
+}
+
+#data-output {
+  border: solid 1px;
+  border-color: darkgreen;
+  margin-top: 1em;
+  padding: 1.5em; 
+}
+
+#calculate {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#heart {
+  width: 100px;
+  height: 100px;
+  border: 1px solid;
+  position: relative;
+}
+#heart > div {
+  position: absolute;
+  width: 75px;
+  height: 50px;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  background-color: rgba(255, 0, 0, 0.5);
+}
+#heart > div:nth-child(1) {
+  transform: translate(5px, 20px) rotate(45deg)
+}
+#heart > div:nth-child(2) {
+  transform: translate(25px, 20px) rotate(135deg)
+}
+</style> 
